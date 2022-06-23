@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/img/usercheck.png" type="image/x-icon">
         <title>Curriculo</title>
         <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
@@ -52,26 +53,30 @@
 
         <section class="landing">
             <div class="container">
-                <a class="row">
-                    <div class="col-sm">
-                        </div CLASS="socials">
-                        <a href="http://github.com/" target="_blank"><i class="uil uil-github"></i></a>
-                        <a href="https://www.linkedin.com/in/alexsandro-simas-lopes-6104b0220/" target="_blank"><i class="uil uil-linkedin"></i></a>
-                        <a href="http://alexsimaslopes@gmail.com" target="_blank"><i class="uil uil-envelopes"></i></a>
-                        <a href="http://whatsapp.com" target="_blank">
-                        <i class="uil uil-whatsapp-alt"></i></a>
+                <div class="col-sm-4" id="links">
+                    <div CLASS="socials">
+                        <div class="material-icons-sharp">
+                            <a href="http://github.com/Alexsandro-Simas-Lopes/" target="_blank"><i class="uil uil-github"></i></a>
+                       
+                            <a href="https://www.linkedin.com/in/alexsandro-simas-lopes-6104b0220/" target="_blank"><i class="uil uil-linkedin"></i></a>
                         
+                            <a href="https://alexsimaslopes@gmail.com/" target="_blank"><i class="uil uil-envelopes"></i></a>
+                        
+                            <a href="http://whatsapp.com" target="_blank">
+                            <i class="uil uil-whatsapp-alt"></i></a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm">
-                    <div class="info">
-                        <h1>Cursando Técnico em Análize e Desenvolvimento de Sistemas no SENAC!</h1>
-                        <h3>Olá, me chamo Alexsandro Simas Lopes</h3>
-                        <p>Sou um jovem de 21 anos proativo, comprometido, gosto de planejar e desenvolver medidas para solução de problemas e melhorias de processos.</p> <p>Tenho desejo de adquirir novos conhecimentos e crescer profissionalmente na área de tecnologia da informação, mais especificamente na área de Pesquisa e Desenvolvimento de Sistemas.</p>
-                        <a href="#contact" class="btn btn-primary" role="button">Leia mais</a>
-                    </div>
+            </div>
+            <div class="col-sm-4" id="right">
+                <div class="info">
+                    <h1>Cursando Técnico em Análize e Desenvolvimento de Sistemas no SENAC!</h1>
+                    <h3>Olá, me chamo Alexsandro Simas Lopes</h3>
+                    <p>Sou um jovem de 21 anos proativo, comprometido, gosto de planejar e desenvolver medidas para solução de problemas e melhorias de processos.</p> <p>Tenho desejo de adquirir novos conhecimentos e crescer profissionalmente na área de tecnologia da informação, mais especificamente na área de Pesquisa e Desenvolvimento de Sistemas.</p>
+                    <a href="#contact" class="btn btn-primary" role="button">Leia mais</a>
                 </div>
-                <div class="col-sm">
+            </div>
+            <div class="col-sm-4" id="left">
                     <div class="profile-area">
                         <div class="outer-circle">
                             <span class="material-icons-sharp">design_services</span>
@@ -89,15 +94,16 @@
         <!-- ======================= END OF LANDING =================== -->
 
         <section class="sobre" id="sobre">
-            <h1>Sobre</h1>
-            <div class="info">
+            
+            <h1 id="sobre-titulo">Sobre</h1>
+            <img src="img/canvaimg.png" id="canva">
+            <div class="info" id="info-text">
                 <p>Atualmente cursando Técnico em Análise e Desenvolvimento de Sistemas no SENAC e estagiando Desenvolvimento de Sistemas na SEDUC</p>
                     <p>Sou um jovem de 21 anos proativo, comprometido, gosto de planejar e
                     desenvolver medidas para solução de problemas e melhorias de
                     processos. Tenho desejo de adquirir novos conhecimentos e crescer
                     profissionalmente na Área de Tecnologia da Informação, mais especificamente na área de Pesquisa e Desenvolvimento de Sistemas</p>
                 </div>
-            <a class="read-more">Show more</a>
         </section>
         
         <!-- =================== EXPERIÊNCIAS ==================== -->
@@ -204,7 +210,6 @@
                 <span class="material-icons-sharp">line_style</span>
                     <h3>SENAC</h3>
                     <p>Técnico em Análise e Desenvolvimento de Sistemas (2022-2024)</p>
-                    
                 </div>
             </div>
             <div class="container">
@@ -213,7 +218,7 @@
                     <h3>ARGUS</h3>
                     <p>Inglês Básico (40h - 2015)</p>
                 </div>
-            </div>
+            </div> 
             <div class="container">
                 <div class="curso">
                 <span class="material-icons-sharp">devices</span>
@@ -237,9 +242,6 @@
                     <h3>CIEE</h3>
                     <p>Microsoft Office Excel, PowerPoint e Word (50h) - 2021</p>
                 </div>
-                <div class="swiper-scrollbar">
-                    <div class="swiper-scrollbar-drag"></div>
-                </div>
             </div>
         </section>
         
@@ -257,7 +259,7 @@
                 <!-- ========= SLIDE 01 =========-->
                     <div class="carousel-inner">
                         <div clas=".carousel-item active">
-                            <img class="carousel-caption d-none d-md-block" src="/img/crudimg.jpg" alt="">
+                            <img class="carousel-caption d-none d-md-block" src="/img/crudimg.jpg" alt="Primeiro Slide">
                             <h5>Bock's Univerce</h5>
                             <p>Criação de um CRUD em Laravel, com tela de login e cadastro</p>
                         </div>
